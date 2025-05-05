@@ -19,22 +19,25 @@
 
 <body>
     <!-- header section started -->
-    <div class="main-background">
+    <div class="main-background" id="hdr">
         <div class="container">
-            <header class="d-flex justify-content-between align-items-center">
+            <header class="d-flex justify-content-between align-items-center px-2">
                 <div class="logo">
                     <img src="img/logo.avif" alt="" class="w-75">
                 </div>
                 <div class="nav">
-                    <ul class="list-unstyled d-flex justify-content-between gap-5 fs-5">
-                        <li><a href="" class="text-decoration-none text-white">Home</a></li>
-                        <li><a href="" class="text-decoration-none text-white">About Us</a></li>
-                        <li><a href="" class="text-decoration-none text-white">Services</a></li>
-                        <li><a href="" class="text-decoration-none text-white">Contact</a></li>
+                    <ul class="list-unstyled d-flex justify-content-between gap-lg-5 gap-3 fs-5">
+                        <li><a href="#hdr" class="text-decoration-none">Home</a></li>
+                        <li><a href="#abt" class="text-decoration-none">About Us</a></li>
+                        <li><a href="#service" class="text-decoration-none">Services</a></li>
+                        <li><a href="#contactus" class="text-decoration-none">Contact</a></li>
                     </ul>
                 </div>
+                <div class="menu text-white">
+                    <i class="ri-menu-line"></i>
+                </div>
             </header>
-            <div class="hero-banner text-white d-flex flex-column gap-3 align-items-start justify-content-center">
+            <div class="hero-banner text-white d-flex flex-column gap-3 align-items-start justify-content-center px-2">
                 <h1 class="">Experts in <br><span>Electrical Distribution</span> System</h1>
                 <p class="">Specalizing in design,engineering,and low-volume harness manufecturing...</p>
                 <div class="banner-btn ">
@@ -48,16 +51,16 @@
     <!-- header section ended -->
 
     <!-- About us section started -->
-    <div class="about-us py-5">
+    <div class="about-us py-lg-5" id="abt">
         <div class="container">
-            <div class="about-parent  d-flex py-5">
-                <div class="about-part-1 p-3 d-flex flex-column gap-3 w-50">
+            <div class="about-parent row pt-5">
+                <div class="about-part-1 p-3 col-lg d-flex flex-column gap-3">
                     <h4>Our Story <i class="ri-corner-right-down-fill"></i></h4>
                     <h2>Empowering Innovation in Electrical Distribution Systems</h2>
                     <img src="img/No-Crossed-Wires-Best-Methods-for-Wiring-an-Electric-Panel.webp" alt=""
                         class="rounded-4 w-100">
                 </div>
-                <div class="about-part-2 p-3 d-flex flex-column gap-4 w-50">
+                <div class="about-part-2 p-3 col-lg d-flex flex-column gap-4">
                     <div class="about-part-2-img d-flex flex-wrap gap-3">
                         <img src="img/iStock-144327585-scaled.jpg" alt=""
                             class=" rounded-4">
@@ -131,11 +134,11 @@
     <!-- our section ended -->
 
     <!-- services section started -->
-     <div class="services py-5 text-white">
+     <div class="services py-5 text-white" id="service">
         <div class="container">
             <h2>Services</h2>
-            <div class="services-parent d-flex flex-wrap gap-4 mt-5">
-                <div class="service-1 rounded-4">
+            <div class="services-parent  row gap-4  mt-5 p-3">
+                <div class="service-1 rounded-4 col-lg p-0">
                     <div class="service-content-1">
                         <h3>
                             RECRUITING SUPPORT:
@@ -151,7 +154,7 @@
                     </div>
                    
                 </div>
-                <div class="service-2 rounded-4">
+                <div class="service-2 rounded-4 col-lg p-0">
                     <div class="service-content-1">
                         <h3>
                             DESIGN / RELEASE ENGINEERING (3D / 2D CAD):</h3>
@@ -164,7 +167,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="service-3 rounded-4">
+                <div class="service-3 rounded-4 col-lg p-0">
                     <div class="service-content-1">
                         <h3>
                             ELECTRICAL HARNESS MANUFACTURING:</h3>
@@ -183,14 +186,14 @@
     <!-- services section ended-->
 
     <!-- contact us section started -->
-    <div class="contact" id="contactme">
+    <div class="contact" id="contactus" >
         <div class="container">
             <div class="contact-parent">
                 <h1>Contact Us</h1>
                 <h2>- <span> Get in touch </span> -</h2>
-                <div class="contact-child row mt-5">
-                    <div class="contact-content-1 col">
-                        <h3><img src="img/logo.avif" alt=""></h3>
+                <div class="contact-child row mt-lg-5 row-gap-4">
+                    <div class="contact-content-1 col-lg">
+                        <h3><img src="img/logo.avif" alt="" class="w-50"></h3>
                         <form>
                             <div class="form-content-1">
                                 <input type="text" placeholder="Name">
@@ -203,7 +206,7 @@
                                 <button class="btn btn-danger"><a href="" >Send Message </a> <i class="ri-message-2-line"></i></button>
                             </div>
                         </form>
-                        <div class="link-icons mt-5">
+                        <div class="link-icons mt-4">
                             <a href="tel:"><i class="ri-phone-fill"></i></a>
                             <a href=""><i class="ri-whatsapp-fill"></i></a>
                             <a href=""><i class="ri-linkedin-box-fill"></i></a>
@@ -211,7 +214,7 @@
                             <a href=""><i class="ri-facebook-box-fill"></i></a>
                         </div>
                     </div>
-                    <div class="map col">
+                    <div class="map col-lg">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d21248.914340637108!2d-83.617568!3d42.638001!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1746443361628!5m2!1sen!2sus" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100"></iframe>
                     </div>
                 </div>
@@ -223,6 +226,9 @@
     <!-- footer section -->
     <div class="footer-2 p-2 bg-dark text-white d-flex justify-content-center">
         <p class="m-0">Copyright © 2025 enitiatives. All Rights Reserved.</p>
+        <div class="up-icon">
+            <a href="#hdr"><i class="ri-arrow-up-double-line"></i></a>
+        </div>
         </div>
     <!-- footer section -->
 
