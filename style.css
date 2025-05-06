@@ -379,7 +379,7 @@ form textarea{
 @media (max-width:767px){
     .main-background{
         height: 600px;
-        background-position: center;
+        background-position: center !important;
     }
     .hero-banner{
     height: 500px;
